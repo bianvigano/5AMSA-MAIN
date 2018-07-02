@@ -42,7 +42,7 @@ client.on("message", message => {
    message.react("😜")
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
-      .addField(" PowerX is Here", true)
+      .addField(" 5AMSA is Here", true)
       
       .addField("XDROWN#5950 : Dev", true)
       
