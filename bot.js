@@ -565,8 +565,7 @@ client.on("guildMemberAdd", member => {
                               ctx.fontSize = '18px';
                               ctx.fillStyle = "#FFFFFF";
                               ctx.textAlign = "center";
-      ctx.fillText(`Welcome To 5AMSA World !!`
-                              , 200, 154);
+                                                         ctx.fillText(`Welcome To 5AMSA World !!`, 200, 154);
     welcomer.sendFile(canvas.toBuffer())
       
       
@@ -583,7 +582,7 @@ client.on("message", message => {
   if (message.author.bot) return;
   if(!message.channel.guild)return;
   if (!profile[message.author.id]) profile[message.author.id] = {
-    tite: 'PowerX User',
+    tite: 'use (title <title>',
     rep: 0,
     reps: 'NOT YET',
     lastDaily:'Not Collected',
