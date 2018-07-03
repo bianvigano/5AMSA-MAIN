@@ -565,7 +565,7 @@ client.on("guildMemberAdd", member => {
                               ctx.fontSize = '18px';
                               ctx.fillStyle = "#FFFFFF";
                               ctx.textAlign = "center";
-      ctx.fillText(`اهلا بيك في سرفرنا يجميل`
+      ctx.fillText(`Welcome To 5AMSA World !!`
                               , 200, 154);
     welcomer.sendFile(canvas.toBuffer())
       
