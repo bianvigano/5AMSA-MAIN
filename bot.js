@@ -558,15 +558,15 @@ client.on("guildMemberAdd", member => {
                               ctx.fontSize = '20px';
                               ctx.fillStyle = "#FFFFFF";
                               ctx.textAlign = "center";
-                                                         ctx.fillText(member.user.username, 200, 154);
+                                                         ctx.fillText(member.user.username, 200, 190);
                               
                               //NAMEً
                               ctx.font = '20px Arial';
-                              ctx.fontSize = '28px';
+                              ctx.fontSize = '18px';
                               ctx.fillStyle = "#FFFFFF";
                               ctx.textAlign = "center";
-      ctx.fillText(`انت العضو رقم  ${member.guild.memberCount} !! `
-                              , 200, 190);
+      ctx.fillText(`اهلا بيك في سرفرنا يجميل`
+                              , 200, 154);
     welcomer.sendFile(canvas.toBuffer())
       
       
