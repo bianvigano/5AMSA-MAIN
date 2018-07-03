@@ -461,7 +461,7 @@ Server support: https://discord.gg/cJ9YJF6
 
 //kickvoice
 client.on('message', eyad => {
-  if (eyad.content.startsWith('!>uvb')) {
+  if (eyad.content.startsWith('(uvb')) {
 if (!eyad.member.hasPermission("MOVE_MEMBERS")) return eyad.channel.send("**انت لا تمتلك الخاصيه المطلوبه** | ❎ ");
  let men = eyad.mentions.users.first()
  let mas = eyad.author
@@ -493,7 +493,7 @@ eyad.channel.sendEmbed(Embed11).then(eyad => {eyad.delete(15000)})
 }) // نهايه كود فك الباند الفويس
  
 client.on('message', eyad => {
-  if (eyad.content.startsWith('!>vb')) {
+  if (eyad.content.startsWith('(vb')) {
 if (!eyad.member.hasPermission("MOVE_MEMBERS")) return eyad.channel.send("**انت لا تمتلك الخاصيه المطلوبه** | ❎ ");
 let men = eyad.mentions.users.first()
 let mas = eyad.author
